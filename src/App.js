@@ -1,10 +1,12 @@
-import "./App.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <p className="font-bold text-green-400 text-center">
-      Hello world!
-    </p>
+    <>
+      <div className="flex">
+        <Sidebar />
+      </div>
+    </>
   );
 }
 
