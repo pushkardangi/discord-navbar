@@ -11,6 +11,7 @@ export default function Sidebar() {
       <SideBarIcon icon={<BsPlus size="32" />} />
       <SideBarIcon icon={<FaPoo size="20" />} />
       <SideBarIcon icon={<BsFillLightningFill size="24" />} />
+      <SideBarIcon icon={<BsGearFill size="24" />} />
     </div>
   );
 }
